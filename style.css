@@ -94,3 +94,33 @@ p {
 	font-size: 18px;
 	line-height: 2em;
 }
+
+.blog-section {
+	margin: 100px auto;
+	text-align: center;
+}
+blog-items {
+	justify-content: center;
+}
+.blog-section p {
+	width: 700px;
+	margin: 40px auto;
+}
+.blog-item {
+	float: left;
+	width: 33.33333333333%;
+	box-sizing: border-box;
+}
+.blog-item img {
+	width: 335px;
+	margin: 0 auto;
+	display: block;
+}
+.blog-content {
+	width: 380px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: left;
+	justify-content: center;
+}
