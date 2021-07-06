@@ -153,3 +153,19 @@ p {
 	font-size: 48px;
 	font-weight: 700;
 }
+
+.footer-area {
+	background-color: #0b0d17;
+	padding: 80px 0;
+	text-align: center;
+}
+.footer-area h2 {
+	margin-bottom: 30px;
+	color: #5b5b5b;
+	font-size: 30px;
+}
+
+.footer-area p {
+	color: #ffffff;
+	font-size: 16px;
+}
