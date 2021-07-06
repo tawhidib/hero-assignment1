@@ -17,8 +17,10 @@ body {
 .light-org {
 	color: var(--light);
 }
-.header-area {
+.flexed {
 	display: flex;
+}
+.header-area {
 	margin: 80px 100px;
 	justify-content: center;
 	align-items: center;
@@ -50,4 +52,45 @@ body {
 	text-transform: capitalize;
 	display: inline-block;
 	transition: 0.5s;
+}
+
+.btn:hover {
+	color: #000000;
+	background-image: linear-gradient(to right, var(--light), var(--deep));
+}
+
+/* About section */
+.about-section {
+	background-image: url("images/bg1.png");
+	padding: 80px 100px 0 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-section .left-side {
+	text-align: center;
+}
+.about-section .left-side img {
+	width: 338px;
+	height: auto;
+}
+
+.about-section .right-side {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px;
+}
+h2 {
+	color: #707070;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.about-section .right-side p {
+	margin: 60px 150px 60px 0;
+}
+p {
+	font-size: 18px;
+	line-height: 2em;
 }
